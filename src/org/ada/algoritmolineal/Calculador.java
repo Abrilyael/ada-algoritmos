@@ -11,6 +11,15 @@ import java.util.Scanner;
          int resultado = sumandoA + sumandoB;
          System.out.println("El resultado de la suma es: " + resultado);
      }
+     public void multiplicarNumeros() {
+         Scanner lectorDatos = new Scanner(System.in);
+         System.out.println("Ingrese numero A: ");
+         int numeroA = lectorDatos.nextInt();
+         System.out.println("Ingrese numero B: ");
+         int numeroB = lectorDatos.nextInt();
+         int resultado = numeroA * numeroB;
+         System.out.println("El resultado de la multiplicacion es: " + resultado);
+     }
 
      public void calcularPromedio() {
          final byte CANTIDAD_NOTAS = 4;
