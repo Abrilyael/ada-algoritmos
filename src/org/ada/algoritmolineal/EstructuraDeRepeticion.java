@@ -122,9 +122,6 @@ public class EstructuraDeRepeticion<CANTIDAD_ARRAY> {
         Scanner lectorDatos = new Scanner(System.in);
         System.out.println("Ingrese diez numeros : ");
         int numeros = lectorDatos.nextInt();
-        do{
-
-        }
         }
     }
 
