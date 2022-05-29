@@ -9,7 +9,7 @@ public class Account {
     private String holder;
     private double balance;
     private String lastTransaction;
-    private Date lastTransactionDate;
+    private Date lastTransactionDate; // objeto que sirve para poder colocar fechas exactas..
 
     public Account(String holder, double balance){
         this.holder = holder;
